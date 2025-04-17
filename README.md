@@ -9,7 +9,8 @@ This project explores NHS outpatient appointment data from 2011 to 2020. It incl
 - **Source**: NHS England Outpatient Appointments (2011–2020)
 - **Contains**: Hospital names, quarters, appointment volumes, DNA (Did Not Attend) counts, GP referrals, and more.
 
----
+Jupyter Notebook - 'Output/nhs-admission-data-2011-2020.ipynb'
+
 
 ## 📋 Project Overview
 
@@ -32,17 +33,25 @@ This project explores NHS outpatient appointment data from 2011 to 2020. It incl
 
 ---
 
-## 📈 Visual Outputs
+## 📈 KEY Visual Outputs
 
-### ✅ Admissions Trend Over Time
+### Admissions Trend Over Time
 
 ![Admissions Trend](Figures/Hopsital_Admissions_Total%20.png)
 
-### ✅ DNA Rate Heatmap
+### Prophet Forcast 
 
-![DNA Heatmap](figures/heatmap_dna_rate.png)
+![DNA Heatmap](Figures/Prophet_Forcast.png)
 
-### ✅ GP Referral Rate Heatmap
+### DNA Rate Heatmap
+
+![DNA Heatmap](Figures/DNA_Heatmap.png)
+
+### Top 5 Hopsitals by Admissions
+
+![DNA Heatmap](Figures/Top_5_Admissions.png)
+
+### GP Referral Rate Heatmap
 
 ![GP Referral Rate](figures/heatmap_gp_referral_rate.png)
 
@@ -54,13 +63,22 @@ This project explores NHS outpatient appointment data from 2011 to 2020. It incl
 
 The project also includes a fully interactive Power BI dashboard, exported as `.pbix` and screenshot.
 
-### Preview
+### Overview
 
-![Power BI Preview](powerbi_dashboard/dashboard_screenshot.png)
+![Power BI Preview](PowerBI%20Dashboard/Default.png)
+
+### Filtered by Year 
+
+![Power BI Preview](PowerBI%20Dashboard/Filter-year.png)
+
+### Selected Hopstial 
+
+![Power BI Preview](PowerBI%20Dashboard/select-hospital-from-chart.png)
 
 ### File
 
-- `powerbi_dashboard/NHS_Outpatients.pbix`
+'PowerBI%20Dashboard/NHS%20Admissions%20Dashboard.pbix'
+
 
 ## 🛠️ Tools Used
 
